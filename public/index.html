@@ -9,16 +9,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     type="text/css" />
 
-  <!-- App CSS -->
-  <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <!-- App CSS -->
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
 
-  <--! Nav Bar -->
+    <!-- Nav Bar -->
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
 
     <!-- Header -->
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+
     <!-- New Tweets -->
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -39,36 +41,33 @@
 
 </head>
 
-<body>
+<body class="body-container">
   <!-- Top nav bar (fixed) -->
   <nav class="navbar">
-    <span class="Tweeter"> tweeter </span>
+    <span> tweeter </span>
     <div class="navbar right">
       <span><b> Write </b> a new tweet </span>
       <i class="icon fa-solid fa-angles-down"></i>
     </div>
   </nav>
-  <header>
+  <header class="header-container">
     <div>
-      <img class="avatar" src="/images/profile-hex.png">
+      <img class="header" src="/images/profile-hex.png">
     </div>
     <br>
     <div>
-      <h2 class="name">Bethany Paul</h2>
+      <h2 class="header-name">Bethany Paul</h2>
     </div>
   </header>
   <!-- Page-specific (main) content here -->
   <main class="container">
-    <section class="new-tweet">
-      <form method="POST" action="/tweets">
-        <label for="tweet-text">What are you humming about?</label>
-        <textarea class="text-patch" name="text" id="tweet-text"></textarea>
-        <div class="tweeter">
+      <form class="new-tweet" method="POST" action="/tweets">
+        <textarea class="text-patch" name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+        <div class="new-tweet-submit">
           <button type="submit">Tweet</button>
           <output name="counter" class="counter" for="tweet-text">140</output>
         </div>
       </form>
-    </section>
   </main>
 </body>
 

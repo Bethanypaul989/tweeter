@@ -21,6 +21,9 @@
     <!-- New Tweets -->
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
+    <!-- Composer Char Counter-->
+     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>    
+
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -65,7 +68,7 @@
         <textarea class="text-patch" name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="new-tweet-submit">
           <button type="submit">Tweet</button>
-          <output name="counter" class="counter" for="tweet-text">140</output>
+          <output name="counter" id="charCounter" class="counter" for="tweet-text">140</output>
         </div>
       </form>
   </main>

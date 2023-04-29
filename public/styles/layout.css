@@ -16,7 +16,7 @@
 
 body.body-container {
   color: black;
-  background-color: #f4f1ec;
+  background-color: #1d1d20;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
 }
@@ -28,6 +28,6 @@ body.body-container {
  main.main-container {
   display: flex;
   justify-content: center;
-  background-color: #293252;
+  background-color: #1d1d20;
   font-family: 'Source Sans Pro', sans-serif;
  }

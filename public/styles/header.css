@@ -1,23 +1,23 @@
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;  
-  height: 500px;
-  width: 100%;
-  background-color: #b4b3c7;
-  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
-  font-family: 'Source Sans Pro', sans-serif;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: #bc02bf;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    font-family: 'Source Sans Pro', sans-serif;
   }
-
+  
   header div img {
     display: flex;
-    margin-top: 120px;
+    margin-top: 50px;
     width: 200px;
-    height: 200px;
+    height: 200x;
     object-fit: cover;
     border-radius: 50%;
+  
   }
   
   header h2 {

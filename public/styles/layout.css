@@ -4,65 +4,67 @@
  * Do not modify these two selectors, please
  */
  html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-nav {
-  font-family: 'Bungee', cursive;
-}
-
-main {
-  width: 90%;
-  margin: 0 auto;
-  background-color:rgb(71, 73, 83);
-}
-/*
- * Global layout stuff
- */
-
-body {
-  background-color:rgb(71, 73, 83);
-  font-size: 24px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-@media only screen and (min-width: 1024px) {
-  /* CSS for Tablets to Smartphones */
-
-
-  body { 
-    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(200, 164, 244) !important;
   }
-
   
-
-  .new-tweet {  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  nav {
+    font-family: 'Bungee', cursive;
+  }
+  
+  main {
     width: 90%;
-    flex-direction: column;
-    margin-top: 15em;
-    height: 500px;
-    margin-right: 3em;
+    margin: 0 auto;
+    background-color: rgb(200, 164, 244) !important;
   }
   
-
-  body > header { 
-    display: flex;
-    margin-top: 20em;
-    height: 24em;
-    margin-right: 3em;
-    margin-left: 3em;
-    width: 50%;
-}
-
-
-body > nav { 
-  display: flex;
-  background-color: #4056A1;
+  /*
+   * Global layout stuff
+   */
   
-}
-
-}
+  body {
+    background-color: rgb(200, 164, 244) !important;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  /* Had to use "!important" for an issue with dark reader overriding background colour */
+  
+  @media only screen and (min-width: 1024px) {
+    /* CSS for Tablets to Smartphones */
+  
+  
+    body {
+      display: flex;
+    }
+  
+    .new-tweet {
+      width: 90%;
+      flex-direction: column;
+      margin-top: 171px;
+      height: 500px;
+      margin-right: 3em;
+    }
+  
+    body>header {
+      display: flex;
+      margin-top: 200px;
+      height: 24em;
+      margin-right: 3em;
+      margin-left: 3em;
+      width: 50%;
+    }
+  
+  
+    body>nav {
+      display: flex;
+      background-color: #9165a5;
+    }
+  
+  }

@@ -6,7 +6,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots 
 
- ![screenshot-1](https://github.com/Bethanypaul989/tweeter/blob/a20679fcd139ea237a4df6621b8b8698af586a9b/Screenshot%202023-05-01%20at%2012.47.30%20PM.png)
+ ![screenshot-1](https://github.com/Bethanypaul989/tweeter/blob/6c38c593086395aedc347d1dec7ac339728f85bf/Screenshot%202023-05-01%20at%2012.47.18%20PM.png)
  ![screenshot-2](https://github.com/Bethanypaul989/tweeter/blob/0fda70681f4cce565273a7695918bf3e197ba258/Screenshot%202023-05-01%20at%2012.47.30%20PM.png)
  
 ## Getting Started
